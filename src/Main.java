@@ -1,7 +1,8 @@
+import com.company.SUN;
 import com.company.solarSystem;
 
 public class Main {
-    public static <SUN> void main(String[] args) {
+    public static  void main(String[] args) {
 
         // write your code here
         solarSystem inception = new solarSystem();
@@ -12,7 +13,13 @@ public class Main {
         System.out.println("the basic structure is ready ");
 
 
+//    developing the feature SUN
 
+        SUN omaro = new SUN();
+        omaro.temperature = "12334433kj";
+        omaro.name = "ferro";
+        omaro.radius = 123445554545455454;
+        omaro.color = "pink";
 
     }
 
